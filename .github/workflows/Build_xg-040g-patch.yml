@@ -31,7 +31,7 @@ on:
 
 
 env:
-  CONFIG_FILE: "config/040.config"
+  CONFIG_FILE: "config/040lite.config"
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-25.12
   FEEDS_CONF: feeds.conf.default
