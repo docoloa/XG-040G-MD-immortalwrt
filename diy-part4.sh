@@ -19,9 +19,9 @@ if [ ! -d "package/lucky" ]; then
 fi
 
 # luci-app-openlist2
-if [ ! -d "package/openlist" ]; then
-    git clone https://github.com/sbwml/luci-app-openlist2 package/openlist
-fi
+# if [ ! -d "package/openlist" ]; then
+#    git clone https://github.com/sbwml/luci-app-openlist2 package/openlist
+# fi
 
 # luci-app-airoha-npu
 if [ ! -d "package/luci-app-airoha-npu" ]; then
