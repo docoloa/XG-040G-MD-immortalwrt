@@ -13,6 +13,16 @@ git clone https://github.com/gSpotx2f/luci-app-cpu-perf package/luci-app-cpu-per
 # OpenClash
 # git clone --depth 1 https://github.com/vernesong/OpenClash.git OpenClash
 
+# lucky
+if [ ! -d "package/lucky" ]; then
+    git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
+fi
+
+# luci-app-openlist2
+if [ ! -d "package/openlist" ]; then
+    git clone https://github.com/sbwml/luci-app-openlist2 package/openlist
+fi
+
 # luci-app-airoha-npu
 if [ ! -d "package/luci-app-airoha-npu" ]; then
     git clone https://github.com/rchen14b/luci-app-airoha-npu package/luci-app-airoha-npu
