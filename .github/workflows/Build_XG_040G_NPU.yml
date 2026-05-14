@@ -1,4 +1,4 @@
-name: Build_XG_040G
+name: Build_XG_040G_NPU
 
 permissions:
   contents: write
